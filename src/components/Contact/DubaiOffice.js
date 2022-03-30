@@ -3,9 +3,9 @@ import React from 'react';
 const DubaiOffice = () => {
     return (
         <div className='mt-10 flex justify-center items-center'>
-            <div className='border-2 border-cyan-700 rounded-xl w-3/4 pt-10 pb-2'>
+            <div className='border-2 border-cyan-700 rounded-xl w-3/4 pt-10 pb-2 max-w-screen-2xl'>
                 <h2 className='font-bold text-3xl text-center text-cyan-700'>Dubai Office</h2>
-                <div className='flex justify-evenly items-center gap-10 my-10'>
+                <div className='md:flex justify-evenly items-center gap-10 my-10 px-10 md:px-2'>
                     <div>
                         <p><span className='font-bold text-xl'>Address:</span> </p>
                         <p><span className='font-semibold'>Street:</span>  Po Box 14071</p>

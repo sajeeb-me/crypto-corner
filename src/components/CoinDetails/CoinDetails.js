@@ -12,8 +12,8 @@ const CoinDetails = () => {
     }, [coinID])
     return (
         <div className='h-[90vh]  flex items-center justify-center'>
-            <div className='grid grid-cols-3 items-center w-5/6 p-10 rounded-xl bg-cyan-700 text-white'>
-                <div className='col-span-2'>
+            <div className='md:grid grid-cols-3 items-center w-5/6 p-10 rounded-xl bg-cyan-700 text-white max-w-screen-2xl'>
+                <div className='col-span-2 my-3'>
                     <h2 className='text-3xl font-bold'>{coin.name}</h2>
                     <p><small>Symbol: {coin.symbol}</small></p>
                     <p className='w-3/4'>Categories: {coin.categories}</p>
@@ -22,7 +22,7 @@ const CoinDetails = () => {
                     <h3>All time heigh: ${coin.market_data?.ath?.usd}</h3>
                     <h3>Market Cap: ${coin.market_data?.market_cap?.usd}</h3>
                 </div>
-                <div className='flex justify-center'>
+                <div className='flex justify-center my-3'>
                     <img src={coin.image?.large} alt="" />
                 </div>
             </div>
