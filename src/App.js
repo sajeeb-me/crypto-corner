@@ -9,6 +9,7 @@ import NotFound from './components/NotFound/NotFound'
 import CoinDetails from './components/CoinDetails/CoinDetails';
 import DubaiOffice from './components/Contact/DubaiOffice';
 import BangladeshOffice from './components/Contact/BangladeshOffice';
+import Search from './components/Search/Search';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/coins' element={<Coins />} />
         <Route path='/coinDetails/:coinID' element={<CoinDetails />} />
+        <Route path='/search' element={<Search />} />
         <Route path='/contact' element={<Contact />}>
           <Route path='dubaiOffice' element={<DubaiOffice />} />
           <Route path='bangladeshOffice' element={<BangladeshOffice />} />

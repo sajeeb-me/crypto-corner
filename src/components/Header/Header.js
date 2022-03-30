@@ -12,6 +12,7 @@ const Header = () => {
             <div className='flex gap-3'>
                 <CustomLink to='/'>Home</CustomLink>
                 <CustomLink to='/coins'>Coins</CustomLink>
+                <CustomLink to='/search'>Search</CustomLink>
                 <CustomLink to='/contact'>Contact</CustomLink>
                 <CustomLink to='/about'>About us</CustomLink>
             </div>
