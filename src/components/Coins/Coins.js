@@ -10,9 +10,9 @@ const Coins = () => {
     }, [])
     return (
         <div className='p-5 text-center'>
-            <h1 className='text-3xl font-semibold mt-5'>List of top {coins.length} Currencies</h1>
+            <h1 className='text-3xl font-semibold my-5 text-cyan-700'>List of top {coins.length} Currencies</h1>
             <div className='flex justify-center'>
-                <div className='my-5 mx-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5'>
+                <div className='my-5 mx-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
                     {
                         coins.map(coin => <CoinList key={coin.id} coin={coin} />)
                     }

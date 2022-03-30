@@ -6,6 +6,7 @@ import Coins from './components/Coins/Coins'
 import Contact from './components/Contact/Contact'
 import About from './components/About/About'
 import NotFound from './components/NotFound/NotFound'
+import CoinDetails from './components/CoinDetails/CoinDetails';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/coins' element={<Coins />} />
+        <Route path='/coinDetails/:coinID' element={<CoinDetails />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/about' element={<About />} />
         <Route path='*' element={<NotFound />} />
