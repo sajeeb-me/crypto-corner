@@ -14,7 +14,7 @@ const CoinDetails = () => {
         <div className='h-[90vh]  flex items-center justify-center'>
             <div className='grid grid-cols-3 items-center w-5/6 p-10 rounded-xl bg-cyan-700 text-white'>
                 <div className='col-span-2'>
-                    <h2 className='text-2xl font-bold'>{coin.name}</h2>
+                    <h2 className='text-3xl font-bold'>{coin.name}</h2>
                     <p><small>Symbol: {coin.symbol}</small></p>
                     <p className='w-3/4'>Categories: {coin.categories}</p>
                     <p>Origin: {coin.country_origin ? coin.country_origin : 'Not found'}</p>

@@ -5,8 +5,8 @@ const CoinList = ({ coin }) => {
     const { image, symbol, name, id } = coin;
     return (
         <Link to={`/coinDetails/${id}`}>
-            <div className='max-w-[300px] border-2 border-cyan-700 flex items-center justify-around py-3 rounded-lg hover:bg-cyan-700 hover:text-white p-2'>
-                <div className='w-[70px]'>
+            <div className='max-w-[300px] border border-cyan-700 flex items-center justify-around py-3 rounded-lg hover:bg-cyan-700 hover:text-white p-2'>
+                <div className='w-[65px]'>
                     <img src={image} alt="" />
                 </div>
                 <div className='text-left'>

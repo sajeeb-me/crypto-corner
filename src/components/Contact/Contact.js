@@ -9,8 +9,8 @@ const Contact = () => {
                 <p className='my-2'>If you have any quarry or facing any technical problems we suggest you to call our <span className='font-semibold'>Hotline.</span> </p>
                 <p>If you want to visit our Office, you are always welcome!</p>
                 <div className='flex items-center justify-center gap-5 mt-5'>
-                    <Link to='/contact/dubaiOffice'><button className='border py-2 px-4 rounded-md border-cyan-700 text-cyan-700 font-semibold hover:bg-cyan-700 hover:text-white'>Dubai Office</button></Link>
-                    <Link to='/contact/bangladeshOffice'><button className='border py-2 px-4 rounded-md border-cyan-700 text-cyan-700 font-semibold hover:bg-cyan-700 hover:text-white'>Bangladesh Office</button></Link>
+                    <Link to='/contact/dubaiOffice'><button className='border py-2 px-4 rounded-md border-cyan-700 text-cyan-700 font-semibold hover:bg-cyan-700 hover:text-white focus:bg-cyan-700 focus:text-white'>Dubai Office</button></Link>
+                    <Link to='/contact/bangladeshOffice'><button className='border py-2 px-4 rounded-md border-cyan-700 text-cyan-700 font-semibold hover:bg-cyan-700 hover:text-white focus:bg-cyan-700 focus:text-white'>Bangladesh Office</button></Link>
                 </div>
             </div>
             <Outlet></Outlet>
