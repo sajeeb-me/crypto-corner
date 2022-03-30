@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import CustomLink from '../CustomLink/CustomLink';
 const Header = () => {
     return (
-        <nav className='flex align-center justify-center md:justify-between md:px-[100px] py-4' style={{ backgroundColor: '#A8DADC' }}>
+        <nav className='flex align-center justify-center md:justify-between md:px-[100px] py-4 bg-cyan-700 text-white'>
             <div className='hidden md:flex'>
                 <Link to='/'>
                     <h2 className='text-xl font-semibold'>Crypto Corner</h2>
