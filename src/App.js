@@ -7,6 +7,8 @@ import Contact from './components/Contact/Contact'
 import About from './components/About/About'
 import NotFound from './components/NotFound/NotFound'
 import CoinDetails from './components/CoinDetails/CoinDetails';
+import DubaiOffice from './components/Contact/DubaiOffice';
+import BangladeshOffice from './components/Contact/BangladeshOffice';
 
 function App() {
   return (
@@ -16,7 +18,10 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/coins' element={<Coins />} />
         <Route path='/coinDetails/:coinID' element={<CoinDetails />} />
-        <Route path='/contact' element={<Contact />} />
+        <Route path='/contact' element={<Contact />}>
+          <Route path='dubaiOffice' element={<DubaiOffice />} />
+          <Route path='bangladeshOffice' element={<BangladeshOffice />} />
+        </Route>
         <Route path='/about' element={<About />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
